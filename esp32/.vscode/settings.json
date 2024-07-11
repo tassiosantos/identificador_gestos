@@ -1,0 +1,23 @@
+{
+    "idf.port": "/dev/ttyUSB0",
+    "DockerRun.DisableAutoGenerateConfig": true,
+    "idf.flashType": "UART",
+    "idf.espIdfPath": "/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/esp-idf",
+    "idf.pythonBinPath": "/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/python_env/idf5.0_py3.8_env/bin/python",
+    "idf.toolsPath": "/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif",
+    "idf.customExtraPaths": "/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/riscv32-esp-elf-gdb/11.2_20220823/riscv32-esp-elf-gdb/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/xtensa-esp32s2-elf/esp-2022r1-11.2.0/xtensa-esp32s2-elf/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/riscv32-esp-elf/esp-2022r1-11.2.0/riscv32-esp-elf/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/bin:/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/esp-rom-elfs/20220823",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/media/tassio/Arquivos_ssd/Documents/TCC/final/esp32/.espressif/tools/esp-rom-elfs/20220823/"
+    },
+    "idf.gitPath": "/usr/bin/git",
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
+        "board/esp32-bridge.cfg"
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.ipp": "c",
+        "esp_log.h": "c"
+    }
+}

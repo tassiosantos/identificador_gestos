@@ -1,0 +1,33 @@
+#ifndef EXAMPLE_CONNECT_H_
+#define EXAMPLE_CONNECT_H_
+
+#include "esp_err.h"
+#include "esp_netif.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+#define CONFIG_EXAMPLE_WIFI_SSID "Nayara tem wifi!!!"
+#define CONFIG_EXAMPLE_WIFI_PASSWORD "cachorrocaramelo"
+
+/**
+ * @brief Inicializa e conecta a interface de rede conforme a configuração do projeto (Wi-Fi e/ou Ethernet)
+ *
+ * @return ESP_OK se a conexão foi estabelecida com sucesso, ou um erro se ocorreu algum problema
+ */
+esp_err_t example_connect(void);
+
+/**
+ * @brief Desconecta e limpa recursos de rede
+ *
+ * @return ESP_OK se a desconexão foi bem-sucedida, ou um erro se ocorreu algum problema
+ */
+esp_err_t example_disconnect(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // EXAMPLE_CONNECT_H_
